@@ -1,0 +1,10 @@
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Christian\Documents\projetos\apprentice-project\csharp-dotnet\scheduling\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

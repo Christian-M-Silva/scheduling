@@ -13,7 +13,7 @@ namespace Domain.Entites
         public DateTime? CreatedAT
         {
             get { return _createdAt; }
-            set { _createdAt = value == null ? DateTime.UtcNow : value; }
+            set { _createdAt = value == null ? DateTime.Now : value; }
         }
 
         public DateTime? UpdateAt { get; set; }
