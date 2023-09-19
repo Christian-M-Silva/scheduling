@@ -14,5 +14,6 @@ namespace Domain.Interfaces.IServices
         Task<bool> Delete(Guid id);
         Task<IEnumerable<PatientsEntity>> GetAllWithDate(DateTime date);
         Task<bool> HasVacanancy(DateTime date);
+        Task<IEnumerable<PatientsEntity>> GetAll();
     }
 }

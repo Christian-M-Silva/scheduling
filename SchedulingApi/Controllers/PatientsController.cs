@@ -147,5 +147,23 @@ namespace SchedulingApi.Controllers
             }
             return BadRequest(ModelState);
         }
+
+        [HttpGet]
+        public async Task<ActionResult> GetAll()
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    var result = await _patientService.GetAll();
+                    return Ok(result);
+                }
+                return BadRequest(ModelState);
+            }
+            catch (ArgumentException erro)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, erro.Message);
+            }
+        }
     }
 }

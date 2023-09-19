@@ -27,6 +27,11 @@ namespace Services
             return _repository.Get(id);
         }
 
+        public Task<IEnumerable<PatientsEntity>> GetAll()
+        {
+            return _repository.GetAll();
+        }
+
         public Task<IEnumerable<PatientsEntity>> GetAllWithDate(DateTime date)
         {
             return _repository.GetAllWithDate(date);

@@ -42,7 +42,26 @@ namespace Data.Repositories
 
         public async Task<T> Get(Guid id)
         {
-            return await _dbSet.SingleOrDefaultAsync(item => item.Id.Equals(id));
+            try
+            {
+                return await _dbSet.SingleOrDefaultAsync(item => item.Id.Equals(id));
+            }
+            catch (Exception erro)
+            {
+                throw erro;
+            }
+        }
+
+        public async Task<IEnumerable<T>> GetAll()
+        {
+            try
+            {
+                return await _dbSet.ToListAsync();
+            }
+            catch (Exception erro)
+            {
+                throw erro;
+            }
         }
 
         public async Task<T> Post(T entity)
@@ -60,7 +79,7 @@ namespace Data.Repositories
 
                 throw erro;
             }
-           
+
 
         }
 
@@ -73,7 +92,7 @@ namespace Data.Repositories
                 {
                     return null;
                 }
-                entity.UpdateAt= DateTime.Now;
+                entity.UpdateAt = DateTime.Now;
                 entity.CreatedAT = result.CreatedAT;
                 entity.Id = result.Id;
                 _context.Entry(result).CurrentValues.SetValues(entity);

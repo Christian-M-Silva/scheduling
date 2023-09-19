@@ -1,5 +1,6 @@
 ﻿using Domain.Entites;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Domain.Interfaces.IRepositories
@@ -10,5 +11,6 @@ namespace Domain.Interfaces.IRepositories
         Task<T> Post(T entity);
         Task<T> Update(T entity, Guid id);
         Task<bool> Delete(Guid id);
+        Task<IEnumerable<T>> GetAll();
     }
 }
